@@ -10,3 +10,5 @@ git checkout -b new_branch
 git checkout main/new_branch
 git branch -d new_branch
 git merge new_branch
+git branch -m new_branch //change branch name
+git branch -m branch1  branch2 //change branch name
