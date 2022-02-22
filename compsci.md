@@ -5,6 +5,7 @@ git clone
 git add -A 
 git commit -m "commit message"
 git push git pull
+# git branch operations
 git checkout -b new_branch
 git checkout main/new_branch
 git branch -d new_branch
