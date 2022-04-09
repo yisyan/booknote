@@ -15,4 +15,5 @@ git branch -m branch1  branch2 //change branch name
 
 # git practice0409
 git clone 
+git add -A
 
