@@ -17,3 +17,9 @@ git branch -m branch1  branch2 //change branch name
 git clone 
 git add -A
 
+# git practice0411
+git commit -m "first commit"
+git push 
+git pull
+git checkout -b new_branch
+
