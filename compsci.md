@@ -23,3 +23,6 @@ git push
 git pull
 git checkout -b new_branch
 
+# git practice0412
+git branch -d new_branch
+git checkout main/new_branch
