@@ -27,3 +27,5 @@ git checkout -b new_branch
 git branch -d new_branch
 git checkout main/new_branch
 git merge new_branch
+# git practice0415
+git branch -m branch1 branch2
