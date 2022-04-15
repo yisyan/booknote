@@ -29,3 +29,7 @@ git checkout main/new_branch
 git merge new_branch
 # git practice0415
 git branch -m branch1 branch2
+git checkout -b branch1
+git branch -d branch1
+git checkout main/branch1
+git merge branch1
