@@ -33,3 +33,11 @@ git checkout -b branch1
 git branch -d branch1
 git checkout main/branch1
 git merge branch1
+
+
+# git branch practice0416
+git checkout -b branch1
+git checkout branch1/main
+git merge branch1
+git branch -d branch1
+git checkout -m branch1 branch2
