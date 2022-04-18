@@ -8,9 +8,5 @@ git add -A
 git commit -m "first commit"
 git push
 git pull
-## git practice 0409
-git add -A
-git commit -m "first commit"
-git push 
-git pull
+
 
