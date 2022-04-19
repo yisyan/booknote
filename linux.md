@@ -7,4 +7,5 @@ i # open file in insert mode or edit mode
 :q # quit
 :q! # quit with  no save
 :wq # save and quit
+cd file1 #inter a file
 
