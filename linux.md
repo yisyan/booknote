@@ -15,10 +15,10 @@ cd file1 #inter a file
 
 ## git commend
 mkdir learngit # create a new folder for git project
-cd learngit # enter the folder
-git init # init a git project
+cd learngit folder # enter the folder
+git init # init a git project in the folder
 vi readme.txt # create a file for git contrl
-git add readme.tx # add the file to git
+git add file_name # add the file to git
 git commit -m "message"# commit the file
 git status # check the status of the file
 git diff file_name# check the difference between the file and the last commit
