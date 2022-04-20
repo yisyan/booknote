@@ -21,4 +21,4 @@ vi readme.txt # create a file for git contrl
 git add readme.tx # add the file to git
 git commit -m "message"# commit the file
 git status # check the status of the file
-git diff # check the difference between the file and the last commit
+git diff file_name# check the difference between the file and the last commit
