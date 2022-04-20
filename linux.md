@@ -1,4 +1,8 @@
 # linux commend
+
+## commend explain
+sudo # 
+pwd # print working directory
 ## file commend
 mkdir file1  # create a file
 vi file1 # edit a file
