@@ -1,9 +1,9 @@
-# linux commend
+# linux command
 
-## commend explain
+## command explain
 sudo # 
 pwd # print working directory
-## file commend
+## file command
 mkdir file1  # create a file
 vi file1 # edit a file
 i # open file in insert mode or edit mode
@@ -13,7 +13,7 @@ i # open file in insert mode or edit mode
 :wq # save and quit
 cd file1 #inter a file
 
-## git commend
+## git command
 mkdir learngit # create a new folder for git project
 cd learngit folder # enter the folder
 git init # init a git project in the folder

@@ -1,7 +1,7 @@
 # booknote
 ## notes of  computer science
 git study tutorial 
-## git essential commend
+## git essential command
 git clone + http
 git init 
 git add -A
