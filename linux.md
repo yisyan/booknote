@@ -12,7 +12,12 @@ i # open file in insert mode or edit mode
 :q! # quit with  no save
 :wq # save and quit
 cd file1 #inter a file
-
+ls # list files
+cd .. # back to parent directory
+clear # clear screen
+rpm [] [] # install package
+yum install [] # install package
+apt [options] [command][package]# advanced packaging tool / package manager 
 ## git command
 mkdir learngit # create a new folder for git project
 cd learngit folder # enter the folder
