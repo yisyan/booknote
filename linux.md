@@ -15,9 +15,9 @@ cd file1 #inter a file
 ls # list files
 cd .. # back to parent directory
 clear # clear screen
-rpm [] [] # install package
-yum install [] # install package
-apt [options] [command][package]# advanced packaging tool / package manager 
+rpm [] [] # install package/ RedHat Package Manager 
+yum install [] # install package / Yellow dog Upadater,Modified  ( Fedora/RedHat/SUSE shell front end)
+apt [options] [command][package]# advanced packaging tool / package manager (Debian/Ubuntu shell front end )
 ## git command
 mkdir learngit # create a new folder for git project
 cd learngit folder # enter the folder
