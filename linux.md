@@ -18,6 +18,12 @@ clear # clear screen
 rpm [] [] # install package/ RedHat Package Manager 
 yum install [] # install package / Yellow dog Upadater,Modified  ( Fedora/RedHat/SUSE shell front end)
 apt [options] [command][package]# advanced packaging tool / package manager (Debian/Ubuntu shell front end )
+rm -f #remove file force (file)
+rm -i #remove file interactive 
+rm -r #remove file recursive (remove all files in directory)
+rm -rf #remove file recursive force (file / directory)
+
+
 ## git command
 mkdir learngit # create a new folder for git project
 cd learngit folder # enter the folder
