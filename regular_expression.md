@@ -1,11 +1,11 @@
 ## exercise website https://regex101.com/
 
 ## quantifier
-?
-*
-+
-{n,m} / {n} / {n,}
-(ab)+
+?   # 0 or 1
+*   # 0 or more
++   # 1 or more
+{n,m} / {n} / {n,}  # n to m
+(ab)+  # ab one or more
 ## operator
 (cat|dog)  or
 
