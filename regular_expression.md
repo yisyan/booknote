@@ -13,15 +13,16 @@
 [abc]+  
 [a-zA-Z0-9]
 [^0-9]
+[^0-9] # non-(0-9)
 
 ## meta-charactor
 \d  number
 \w  words/number/underscore
-\s  tab(Tab)/newline(\n)
+\s  space\tab(Tab)/newline(\n)
 \D non-number
-\W
-\S
+\W non-words
+\S non-space
 . non newline (non \n)
-^a  
-a$
+^  
+$
 
