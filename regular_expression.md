@@ -7,7 +7,11 @@
 {n,m} / {n} / {n,}  # n to m
 (ab)+  # ab one or more
 ## operator
-(cat|dog)  or
+(cat|dog)  # or operator
+() # group / auto-capture group / auto-named group (from left to right start from 1) 
+(?<name>expression) # named group
+(?"name"expression) # named group
+(?:expression) # non-capturing group/non-named group
 
 ## character classes
 [abc]+  
@@ -26,3 +30,13 @@
 ^  
 $
 
+## 
+1 (?=pattern) # positive lookahead
+  a(?=bc) # a followed by bc (abc)
+
+2 (?<=pattern) #positive lookbehind
+  (?<=bc)a     # a preceded by bc (bca)
+3 (?!=pattern) #negative lookahead
+  a(?!bc)      # a not followed by bc a(non-bc)
+4 (?!<=pattern) #negative lookbehind
+  (?!<=bc)a    # a not preceded by bc (non-bc)a
