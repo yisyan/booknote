@@ -30,7 +30,7 @@
 ^  
 $
 
-## 
+## assertions
 1 (?=pattern) # positive lookahead
   a(?=bc) # a followed by bc (abc)
 
