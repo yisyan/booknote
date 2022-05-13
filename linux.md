@@ -7,13 +7,13 @@ pwd # print working directory
 mkdir file1  # create a file
 rmdir file2  # remove a file
 cd  #change directory
+cd file1 #inter a directory
 vi file1 # edit a file
 i # open file in insert mode or edit mode
 :w # save file
 :q # quit
 :q! # quit with  no save
 :wq # save and quit
-cd file1 #inter a file
 ls # list files
 cd .. # back to parent directory
 clear # clear screen
