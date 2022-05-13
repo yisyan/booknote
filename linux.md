@@ -5,6 +5,8 @@ sudo #
 pwd # print working directory
 ## file command
 mkdir file1  # create a file
+rmdir file2  # remove a file
+cd  #change directory
 vi file1 # edit a file
 i # open file in insert mode or edit mode
 :w # save file
