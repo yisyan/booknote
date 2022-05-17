@@ -1,20 +1,12 @@
 # linux command
 
 ## command explain
-sudo # 
+sudo # super user
+su <user_name> #change user
+su - # change root
 pwd # print working directory
-## file command
-mkdir file1  # create a file
-rmdir file2  # remove a file
 cd  #change directory
 cd file1 #inter a directory
-vi file1 # edit a file
-i # open file in insert mode or edit mode
-:w # save file
-:q # quit
-:q! # quit with  no save
-:wq # save and quit
-ls # list files
 cd .. # back to parent directory
 clear # clear screen
 rpm [] [] # install package/ RedHat Package Manager 
@@ -25,6 +17,17 @@ rm -i #remove file interactive
 rm -r #remove file recursive (remove all files in directory)
 rm -rf #remove file recursive force (file / directory)
 rm -ri #remove file recursive interactive
+
+## file command
+mkdir file1  # create a file
+rmdir file2  # remove a file
+vi file1 # edit a file
+i # open file in insert mode or edit mode
+:w # save file
+:q # quit
+:q! # quit with  no save
+:wq # save and quit
+ls # list files
 nano file_name  # edit file
 
 
