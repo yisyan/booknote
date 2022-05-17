@@ -25,6 +25,7 @@ rm -i #remove file interactive
 rm -r #remove file recursive (remove all files in directory)
 rm -rf #remove file recursive force (file / directory)
 rm -ri #remove file recursive interactive
+nano file_name  # edit file
 
 
 ## git command
