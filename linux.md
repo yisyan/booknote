@@ -21,16 +21,28 @@ rm -ri #remove file recursive interactive
 ## file command
 mkdir file1  # create a file
 rmdir file2  # remove a file
+ls #list all file/directory in working directory
+ls -F # directory add /;
+ls -a # all file
+ls -l #more information about files
+cp file1 file2 #copy file1 to file2
+cp -i file1 file2 # ask overwrite file2(already have copied )
+
+## vim 
 vi file1 # edit a file
 i # open file in insert mode or edit mode
 :w # save file
 :q # quit
 :q! # quit with  no save
 :wq # save and quit
-ls # list files
+w file2 #save file to file2
+p #paste 
+y #copy
+/ #
+
+## nano
 nano file_name  # edit file
-
-
+ctrl+x # exit nano
 ## git command
 mkdir learngit # create a new folder for git project
 cd learngit folder # enter the folder
