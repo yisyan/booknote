@@ -35,14 +35,15 @@ i # open file in insert mode or edit mode
 :q # quit
 :q! # quit with  no save
 :wq # save and quit
-w file2 #save file to file2
-p #paste 
-y #copy
-/ #
+w file2 # save as file2
+p #paste  
+y #copy 
+/ # search 
 
 ## nano
 nano file_name  # edit file
 ctrl+x # exit nano
+ctrl+o # save and exit nano
 ## git command
 mkdir learngit # create a new folder for git project
 cd learngit folder # enter the folder
