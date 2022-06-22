@@ -43,6 +43,7 @@ cat -n file1 #print file1 with line number
 cat file | more #print file with more
 cat file1 > file2 #
 more file #print file with more (enter:next line;space:next page;q:quit)
+more +20 file1 #print file1 with 20 lines
 less file #print file with less (space:next page; /string:search string  down;?string :search string up; q:quit)
 echo "hello world" #print hello world
 echo "hello world" > file1 # create a empty file or overwrite file1 and write hello world to file1
