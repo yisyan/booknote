@@ -40,6 +40,7 @@ mv /home/user/file1 /home/opt  #move file1 in /home/user to /home/opt directory
 mv /home/user/bbb /home/opt #move bbb directory in /home/user to /home/opt
 cat file1 #print file1
 cat -n file1 #print file1 with line number
+cat -20 file1 # print 20 line in screen
 cat file | more #print file with more
 cat file1 > file2 #
 more file #print file with more (enter:next line;space:next page;q:quit)
