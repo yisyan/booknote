@@ -9,7 +9,7 @@ git commit -m "first commit"
 git push
 git pull
 ## linux commend
-rm file1 file2
+mv file1 file2 #rename file1
 mkdir dir1
 touch file1
 
