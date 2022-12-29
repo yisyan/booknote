@@ -9,6 +9,8 @@ git commit -m "first commit"
 git push
 git pull
 ## linux commend
-
+rm 
+mkdir dir1
+touch file1
 
 
