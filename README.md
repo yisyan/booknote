@@ -9,7 +9,7 @@ git commit -m "first commit"
 git push
 git pull
 ## linux commend
-rm 
+rm file1 file2
 mkdir dir1
 touch file1
 
